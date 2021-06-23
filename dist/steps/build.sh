@@ -130,6 +130,7 @@ unity-editor \
   -androidKeystorePass "$ANDROID_KEYSTORE_PASS" \
   -androidKeyaliasName "$ANDROID_KEYALIAS_NAME" \
   -androidKeyaliasPass "$ANDROID_KEYALIAS_PASS" \
+  -quitTimeout 1000 \
   $CUSTOM_PARAMETERS
 
 # Catch exit code
